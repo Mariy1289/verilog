@@ -1,4 +1,5 @@
 ## 資料紹介　
+-　===の記述
 - [スライド資料](https://www.macnica.co.jp/business/semiconductor/articles/pdf/Verilog-HDL_Trial_Text_r1__1.pdf)
 - [例題集](https://www.chipverify.com/verilog/verilog-tutorial)<br>
     - verilogのサンプルコードとレストベンチが豊富
@@ -10,11 +11,10 @@
 - counter やフリップフロップ、fsmのHDL記述（system verilog) とテストベンチをかけること。
 - ブロッキング代入とノンブロッキング代入の違いが説明できる。
 
-
 # 今までの復習
 - カルノー図
 - 回路記号 （xnor xorとか）　
-![]("./image/2021-09-24-13-31-42.png)
+![](./image/2021-09-24-13-31-42.png)
 
 - デジタルIC＝ロジックIC ＋メモリICに分かれます 
 - 組み合わせ回路と順序回路
@@ -52,9 +52,10 @@
         - assign文でのみ代入可能
     - reg
         - always文やfunction文などで代入可能
-- sequential block : from begin to end 
+- sequential block : from begin to end
 
-# practice 
+# practice
+[Verilog wireとregの使い分け](https://qiita.com/mmitti/items/b9830632291dab70a724)
 - d flip flop  を書こう
 ```
     module ex1(
@@ -78,6 +79,13 @@
 - shift registerを書こう
     - [shift register]](https://www.chipverify.com/verilog/verilog-n-bit-shift-register)
 - [より詳しい補足](https://technobyte.org/testbench-in-verilog/)
+
+qiita記事<br>
+http://www.am.ics.keio.ac.jp/parthenon/
+https://qiita.com/rikitoro@github/items/ab3a734b4e19df0ad19f
+
+https://qiita.com/thtitech/items/8cc898dda7a10780f495
+https://qiita.com/ryo_i6/items/2e175edfb0759b86f82f
 
 
 ## memo
